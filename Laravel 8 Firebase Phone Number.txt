@@ -1,0 +1,16 @@
+Laravel 8 Firebase Phone Number (OTP) _ With Heroku
+
+https://www.tutsmake.com/laravel-8-firebase-phone-number-otp-auth-example/?ref=morioh.com
+
+https://devcenter.heroku.com/articles/getting-started-with-laravel
+
+
+
+
+
+
+
+
+
+
+

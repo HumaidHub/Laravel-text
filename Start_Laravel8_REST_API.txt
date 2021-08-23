@@ -1,0 +1,59 @@
+Start_Laravel8_REST_API
+https://www.itsolutionstuff.com/post/laravel-8-rest-api-with-passport-authentication-tutorialexample.html
+
+
+composer create-project --prefer-dist laravel/laravel blog
+
+composer require laravel/passport
+
+php artisan migrate
+
+php artisan passport:install
+
+[
+$ php artisan passport:install
+Encryption keys generated successfully.
+Personal access client created successfully.
+Client ID: 1
+Client secret: 57486dMtEzg1yfYrXBJONftEkdYE6PdYFSmzNFy5
+Password grant client created successfully.
+Client ID: 2
+Client secret: JCWgbc8EgSuQqVGYrm6OLbivwkZGIFKgitrKAEmo
+]
+
+php artisan make:controller API/BaseController 
+
+php artisan make:controller API/ProductController --resource
+
+php artisan make:controller API/RegisterController  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+Fix Laravel7 .8
+
+App\Providers\RouteServiceProvider
+remove  null at      * @var string|null  ->  * @var string
+add or cheneg  ->   protected $namespace = 'App\\Http\\Controllers';
+
+
+
+
+scss/app.scss  add in line
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+
+
+github  Clone the Repository:
+composer install
+npm install
+
+
+
+
+
+
+
+
+
+
+
+
+
+

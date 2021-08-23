@@ -1,0 +1,50 @@
+Steart_Laravel_8_Language
+
+laravel new lan
+
+composer require laravel/breeze --dev && php artisan breeze:install
+
+npm install && npm run dev
+
+php artisan migrate
+
+php artisan serve
+
+composer require spatie/laravel-translatable
+
+php artisan vendor:publish --provider="Spatie\Translatable\TranslatableServiceProvider"
+
+composer require cviebrock/eloquent-sluggable
+
+php artisan vendor:publish --provider="Cviebrock\EloquentSluggable\ServiceProvider"
+
+https://gist.github.com/mindscms/2a4dc91cc8ab14d3beb66495aa72812e
+
+composer require nicolaslopezj/searchable
+
+php artisan make:model Post -a
+
+php artisan migrate:fresh --seed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

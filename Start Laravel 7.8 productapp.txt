@@ -1,0 +1,52 @@
+Start Laravel 7.8 productapp
+
+
+
+composer create-project laravel/laravel productapp
+
+composer require laravel/passport
+
+php artisan migrate
+
+php artisan passport:install
+[
+Client ID: 1
+Client secret: P73Ij1sYmG2fJTa76U8DMudAfIDrGa9VtZiZQzu2
+Password grant client created successfully.
+Client ID: 2
+Client secret: rsiAocqSkHpB0izyd5v89WqLH5yW9EPvgJ0VPMQd
+]
+
+php artisan make:model Product -mcr
+
+php artisan migrate
+
+php artisan passport:install --uuids
+[
+Personal access client created successfully.
+Client ID: 9424e24b-cbdf-4947-933e-1c45fcc496d9
+Client secret: MSAcFxVba94Brz7uCKkUrTUG7q2Wdsnu3QxeoyvI
+Password grant client created successfully.
+Client ID: 9424e24b-d199-41e2-b396-ee19f135bcdb
+Client secret: LNBqkC55dAzqBJDzLICafZAr5T9zOLuEfCm0SvRc
+]
+
+php artisan vendor:publish --tag=passport-config
+
+php artisan serve
+
+php artisan make:resource Product
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+
+PASSPORT_PRIVATE_KEY="MSAcFxVba94Brz7uCKkUrTUG7q2Wdsnu3QxeoyvI"
+
+PASSPORT_PUBLIC_KEY="9424e24b-cbdf-4947-933e-1c45fcc496d9"
+
+php artisan vendor:publish --tag=passport-migrations
+
+
+
+

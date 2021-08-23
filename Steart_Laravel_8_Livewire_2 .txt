@@ -1,0 +1,59 @@
+Steart_Laravel_8_Livewire_2 
+
+//laravel new Livewire_2 --jet
+laravel new Livewire_2
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+
+npm install
+npm run dev
+
+php artisan migrate
+
+php artisan serve
+
+composer require livewire/livewire
+
+php artisan livewire:publish --config
+
+php artisan livewire:publish --assets
+
+php artisan make:livewire Posts
+
+php artisan make:model Post -a
+
+php artisan migrate:fresh --seed
+
+composer require laravel/jetstream
+
+php artisan jetstream:install livewire
+
+## php artisan jetstream:install livewire --teams
+
+npm install && npm run dev
+
+php artisan migrate
+
+php artisan vendor:publish --tag=jetstream-views  
+
+# php artisan vendor:publish  #24  ==  php artisan vendor:publish --tag=jetstream-views  
+
+
+php artisan vendor:publish  //help jetstream and select example 24
+
+npm install --save @ckeditor/ckeditor5-build-classic
+
+npm run dev
+
+
+
+
+
+
+
+
+
+
+
